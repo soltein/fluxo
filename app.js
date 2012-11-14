@@ -25,7 +25,7 @@ Ext.application({
     name: 'FLUXO',
     appFolder: 'app',
     controllers: [
-     'Conta', 'Usuario', 'Fluxo'
+     'Conta', 'Usuario', 'Fluxo', 'GraficoTotal'
     ],    
     autoCreateViewport: true,
     launch: function() {

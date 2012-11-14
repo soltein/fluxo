@@ -128,6 +128,8 @@ Ext.define('FLUXO.controller.Fluxo',{
                             Ext.Msg.alert('Erro', 'Erro na comunicação com o servidor.')
                         }
                     });
+                    
+                    this.getFluxosList().store.load();
                 }
             }else{
                 var record = Ext.create('FLUXO.model.Fluxo');
@@ -140,7 +142,7 @@ Ext.define('FLUXO.controller.Fluxo',{
                 this.getFluxosList().store.sync();
             }
             
-            this.getFluxosList().store.load();
+
             win.close();
         }else{
             Ext.ux.Msg.flash({

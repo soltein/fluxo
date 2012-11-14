@@ -28,9 +28,9 @@ $menu = "{
                         expanded: true,
                         children:[
                             {
-                                text:'Gráfico de Movimentações',
+                                text:'Gráfico de Contas',
                                 leaf:true,
-                                itemMenu: 'graficoMovimentacao'
+                                itemMenu: 'graficoTotal'
                             }
                         ]
                     }
