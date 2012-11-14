@@ -20,7 +20,8 @@ Ext.define('FLUXO.view.usuario.Edit',{
                },{
                        name: 'dssenha',
                        fieldLabel: 'Senha',
-                       allowBlank: false                       
+                       allowBlank: false,
+                       inputType: 'password'
                }]
         }];
    
