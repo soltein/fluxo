@@ -31,6 +31,10 @@ $menu = "{
                                 text:'Gráfico de Contas',
                                 leaf:true,
                                 itemMenu: 'graficoTotal'
+                            },{
+                                text:'Totais por Dia',
+                                leaf:true,
+                                itemMenu: 'graficoDia'
                             }
                         ]
                     }
